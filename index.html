@@ -1,76 +1,76 @@
-<!-- -->
+<!--My first line of code basically just declares that we will be using HTML 5 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- this line of code just informs the browswer that we will be working with english as the language -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rodney Nunez Portfolio</title>
-    <link rel="stylesheet" href = "style.css">
+    <meta charset="UTF-8"> <!--with this we can use special characters and wierd symbols on the site--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--allows for a more universal fit on multiple devices because no concrete percentages instead auto tools and scaling-->
+    <title>Rodney Nunez Portfolio</title> <!--the title name in text basically a print for the title-->
+    <link rel="stylesheet" href = "style.css"> <!--instead of implementing the entire style section we import it here-->
 </head>
 
-<body>
+<body><!-- this is where you can find a little short description or links to the following sections -->
     <header>
         <h1>Rodney Nunez</h1>
         <p>Computer Science</p>
 
-        <nav>
+        <nav> <!--the links are  made here-->
             <a href="#about">About</a> <span>|</span>
             <a href="#projects">Projects</a> <span>|</span>
             <a href="#skills">Skills</a> <span>|</span>
             <a href="#contact">Contact</a>
         </nav>
     </header>
-    <main>
-        <section id="about"><h2>About Me</h2>
-        <img src ="MRGHeadshot.png" alt = "Profile image">
-        <p>
+    <main><!--this is the main section of the website where the builk of the information will be-->
+        <section id="about"><h2>About Me</h2> <!--this is the about section and the h2 h3 and stuff like that are just the section headings-->
+        <img src ="MRGHeadshot.png" alt = "Profile image"> <!--this is the actual image that were using,-->
+        <p><!--this creates the text section-->
             My name is Rodney Nunez, and My major is computer science, 
             I am currently taking a course in web development which includes the use of things like HTML, CSS, Git, and GitHub.
         </p>
 
-        <p>
+        <p><!--another text section paragraph one might say-->
             I created this Portfolio at first as a class assignment
             that I can use as reference to my work.
         </p>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <article><h3>GitHubWorkFlowPractice</h3>
-            <p>
+        <section id="projects"> <!--this gives the id of the section so that we can jump to it using the links that we originally created-->
+            <h2>Projects</h2> <!--another header h2 we call this one-->
+            <article><h3>GitHubWorkFlowPractice</h3> <!--the article in that section its a subsection of the section-->
+            <p> <!--another paragraph for h3 this time-->
                 This is where I practice my GitHub commans like pull request, 
                 merging into different branches and so on for web development and also many other classes
 
             </p></article>
-            <article><h3>Responsive Layout Practice</h3><p>
+            <article><h3>Responsive Layout Practice</h3><p> <!--another small section in the section projects with a bit of text-->
                 A small page used to practice flexbox and media queries for desktop and mobile screens.
             </p></article>
         </section>
-        <section id = "skills">
+        <section id = "skills"> <!--now were moving on the to the skills sectoin and we create the header skills and interests-->
             <h2>Skills and Interests</h2>
             <p>Some of the Topics that I am learning in Web Development are as follows</p>
 
-            <ul>
+            <ul> <!--these commands are used to make a list and that is also the whole section-->
                 <li>HTML</li> <li>CSS</li> <li>Flexbox</li>
                 <li>Git and GitHub</li> <li>and of course Web design</li>
             </ul>
 
         </section>
-        <section id="contact"><h2>Contact</h2>
+        <section id="contact"><h2>Contact</h2> <!--another section called contact this time this is the actual box label with usuable buttons-->
         <p>Fill out the form below to send a message.</p>
-    <form>
+    <form> <!--this is basically just grouping all of the parts to be under one form structure-->
         <p><label for ="name">Name:</label>
-        <br>
-    <input type ="text" id = "name" name = "name"></p>
+        <br><!--this is just a line break-->
+    <input type ="text" id = "name" name = "name"></p> <!-- this is the line that creates the typing box-->
 
-    <p><label for="message">Message:</label><br>
-    <textarea id="message"name ="message" rows = "5"></textarea></p>
-    <button type="submit">Send Message</button>
-    </form></section>
+    <p><label for="message">Message:</label><br> <!--the message header before the box-->
+    <textarea id="message"name ="message" rows = "5"></textarea></p> <!--this is the line that creates the whole square-->
+    <button type="submit">Send Message</button> <!--creates a pressable button that has the text Send Message-->
+    </form></section><!--nothing really happens with the button press because we didn't do anthing special with the form variable-->
     </main>
     <footer>
-        <p>
+        <p><!--this is where I give out my information actual links so I use a href-->
             <a href = "mailto:robey-123@hotmail.com">Email me</a>|
             <a href="https://github.com/" target = "_blank">GitHub</a>
         </p>
