@@ -1,27 +1,28 @@
+/*the body includes the style of the whole webpage when it comes to the writing style the color,the thickness the space that is left on the right and left side for the entire page by default*/
 body{
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #444444;
-    line-height: 1.6;
+    background-color: #ffffff; 
+    color: #080808; /*makes the text color black*/
+    line-height: 1.6; /*line spacing*/
     margin: 0;
     padding: 20px;
     max-width: 800px;
-    margin-left: auto;
+    margin-left: auto; /*margin on the left side margin on the right side is right below.*/
     margin-right: auto;
 
 }
 
-header{
+header{ /*the space that is between the sections right under the header*/
     margin-bottom: 30px;
 }
 
-h1{
+h1{ /*my name at the top settings blue color size 32*/
     color: #1e64af;
     font-size: 32px;
 }
 
-h2{
-    color: #1e64af;
+h2{ /* this is the information for each section heading */
+    color: #1e64af; 
     border-bottom: 1px solid #cccccc;
     padding-bottom: 5px;
     margin-top: 35px;
@@ -29,68 +30,68 @@ h2{
 
 h3{color: #000000}
 
-nav{
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
+nav{ /*this is where the page links are held and how they are manipulated*/
+    display: flex; /*lines up the links using flexbox*/
+    gap: 5px; /* and this is the gap between each nav link*/
+    flex-wrap: wrap; /*this allows for the movement of the nav links in terms of spacing*/
 }
 
-nav a{
+nav a{/*these are the links that are actually inside of the section and their colors, decoration basically just color*/
     color: #1e64af;
     text-decoration: none; 
 }
 
-nav a:hover {text-decoration: underline; }
+nav a:hover {text-decoration: underline; } /*this gives the action that happens when you hover over the link*/
 
-section{ margin-bottom: 25px;}
+section{ margin-bottom: 25px;} /*the space under each big text section header name*/
 
-img{
+img{/* img information that is universal and can be used on multiple different devices*/
     width: 180px;
     max-width: 100%;
     height: auto;
-    border-radius: 6px;
+    border-radius: 6px; /* this one rounds the corners of the images the rest*/
 }
 
-article{ margin-bottom: 20px;}
+article{ margin-bottom: 20px;}/*the space right after the article header*/
 
-ul{
+ul{ /* color of the list, and the spaces that are added in between each*/
     background-color: white;
-    padding: 15px 15px 15px 30px;
+    padding: 15px 15px 15px 30px; /*spaces for each bullet point inside the list*/
 }
 
-form{
-    background-color:white;
+form{ /* the entire contact form area background color padding/space from and border*/
+    background-color:white; 
     padding: 15px;
     border: 1px solid #cccccc;
 }
 
-input, textarea{
+input, textarea{ /*these are the rules regarding width border, and distance from for both the input and the text area*/
 width: 100%;
 max-width: 400px;
 padding: 8px;
-border: 1px solid #cccccc;
+border: 1px solid #cccccc; /*solid 1px thick border that is gray*/
 }
-
+/* this is basically all of the information that their is regarding the button that we can press that says send message*/
 button{
     background-color:#1e64af;
     color:white;
-    padding:8px 14px;
+    padding:8px 15px;
     border: none;
-    cursor: pointer;
+    cursor: pointer; /* this line literally changes the regular cursor to a literal hand when hovering over the button*/
 }
 
-button:hover{background-color: #192e68}
-
+button:hover{background-color: #192e68} /*changes the color of the button when we hover over it with our mouse*/
+/* this is the footer the bottom of the page and it creates one of the gray thin lines at the bottom of the page*/
 footer{
     margin-top: 30px;
     padding-top: 15px;
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid #cccccc; /*the gray line*/
     font-size: 14px;
 }
 
-footer a {color: #1e64af;}
+footer a {color: #1e64af;} /*now this is meant for only the links that are contained within the footer it gives those settings like color*/
 
-@media(max-width: 600px){
+@media(max-width: 600px){ /*the adujstments needed for smaller devices especially when they are bigger or smaller then 600px*/
     body {padding: 10px;}
     h1{font-size: 24px;}
     img{width:140px;}
