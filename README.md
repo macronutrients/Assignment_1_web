@@ -1,1 +1,4 @@
-Name: Rodney Nunez
+This project is a personal website something that I can potentially use for my portolio including mainly for now just what I have worked on for this assignment, but I will later add my actual projects
+the website includes 4 sections which are projects(I need to add to this later I didn't include all of my actual projects), Skills the skills that I have acquired creating this project(so only websdevelopment skills, also would need to add to this), my contact information so that people can actually get a hold of me, along with a list and a pressable button.
+I used tools such as vs code to built this website two languages mainly CSS and HTML, and the items in the language that I have used was flexbox, and media query to name the heavy hitters
+the Github workflow that I have practiced in the creation of this assignment include, things such as git add git commit, ls, changing branches going into a subbranch then changing the name of said branch multiple times so I basically created 4 different branches, and I am inside of the Assignment/Portfolio one,
